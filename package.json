@@ -12,6 +12,11 @@
   "directories": {
     "lib": "lib"
   },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts"
+    }
+  },
   "repository": "git+ssh://git@github.com/mustard-mh/node-singleflight.git",
   "keywords": [
     "singleflight"
